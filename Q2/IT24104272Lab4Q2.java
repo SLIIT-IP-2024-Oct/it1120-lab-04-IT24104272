@@ -23,6 +23,7 @@ public class IT24104272Lab4Q2{
      if(examPercentage + labPercentage!=100)
     {
      System.out.println("The percentages must add up to 100.Terminating program.");
+              return;
     }
      double finalMark=(exammarks*examPercentage/100) + (labmarks*labPercentage/100);
      System.out.println();
